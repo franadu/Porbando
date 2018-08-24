@@ -37,22 +37,17 @@ span {  color:#FA5858;}
 /*Base visiual*/
 body
 { color:#00bcd4;  background-color: rgba(0, 0, 0, 0.9);  width: 100%;
-  border:3px solid blue;  border-radius:30px;  overflow-Y: auto;}
+  border:3px solid blue;  border-radius:30px;  overflow-Y: auto; margin: 0 auto;}
 
 /*Encabezado*/
 header
-{  overflow: auto;  border: 2px solid grey; border-radius: 30px;}
+{ border: 2px solid grey; border-radius: 30px; }
 
-.enlaces-web ul
-{ text-align: center;}
+.enlaces-web
+{ display:flex; widht:100%; justify-content: space-around;  }
 
-.enlaces-web li a
-{  float:left;  padding-left:10%; padding-right:10%; font-size: 30px; margin: 20px 0;  }
-
-.enlaces-web li:first-child a
-{ padding-left: 0;}
-.enlaces-web li:last-child a
-{ padding-right:0;}
+.enlaces-web li
+{  font-size: 30px; margin: 20px 0; }
 
 /*Cuerpo*/
 main
