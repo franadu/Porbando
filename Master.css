@@ -43,11 +43,16 @@ body
 header
 { border: 2px solid grey; border-radius: 30px; }
 
-.enlaces-web
-{ display:flex; widht:100%; justify-content: space-around;  }
+.enlaces-web{
+  display:flex;
+  width:100%;
+  justify-content: space-around;
+}
 
-.enlaces-web li
-{  font-size: 30px; margin: 20px 0; }
+.enlaces-web li{
+  font-size: 30px;
+  margin: 20px 0;
+}
 
 /*Cuerpo*/
 main
@@ -68,11 +73,18 @@ main
 article ol li
 {  margin-left:0px;}
 
-article ol li a
-{  color:white;  text-decoration: underline;}
+article ol li a{
+  color:white;
+  text-decoration: underline;
+}
 
-article ol ol li
-{  list-style: upper-roman;  text-decoration:underline;  margin-left: 5px;}{  color:white;  text-decoration: underline;}
+article ol ol li{
+  list-style: upper-roman;
+  text-decoration:underline;
+  margin-left: 5px;
+}
+/* {color:white;
+text-decoration: underline;} TODO: revisar*/ 
 
 article ol ol li a
 {  text-indent: 10px;}
