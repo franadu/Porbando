@@ -89,9 +89,7 @@ text-decoration: underline;} TODO: revisar*/
 article ol ol li a
 {  text-indent: 10px;}
 
-.Indice article ol
-{  padding-left: 20px;}
-/*Hola!!!*/
+.Indice article ol{  padding-left: 20px;}
 
 #refarriba
 { padding: 5px 2.5px 5px 2.5px; background-color: gold ; border-radius: 10px;
